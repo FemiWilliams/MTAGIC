@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<gestures>
+	<gesture id="1" name="A" />
+	<gesture id="2" name="E" />
+	<gesture id="3" name="K" />
+	<gesture id="4" name="Q" />
+	<gesture id="5" name="X" />
+	<gesture id="6" name="2" />
+	<gesture id="7" name="4" />
+	<gesture id="8" name="5" />
+	<gesture id="9" name="7" />
+	<gesture id="10" name="8" />
+	<gesture id="11" name="line" />
+	<gesture id="12" name="plus" />
+	<gesture id="13" name="arch" />
+	<gesture id="14" name="arrowhead" />
+	<gesture id="15" name="checkmark" />
+	<gesture id="16" name="circle" />
+	<gesture id="17" name="rectangle" />
+	<gesture id="18" name="triangle" />
+	<gesture id="19" name="diamond" />
+	<gesture id="20" name="heart" />
+</gestures>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MTAGIC</string>
+    <string name="title_activity_gesture_fragment">Gesture Fragment</string>
+    <string name="action_settings">Settings</string>
+    <string name="startGesture">Start Gesture Game</string>
+    <string name="startPoint">Start Point Game</string>
+    <string name="startCustom">Start Custom Game</string>
+    <string name="title_activity_gesture_game">GestureGame</string>
+    <string name="next">Next</string>
+    <string name="title_activity_level_complete">LevelComplete</string>
+    <string name="title_activity_name">NameActivity</string>
+    <string name="user_name">What\'s your name?</string>
+    <string name="title_activity_custom_game">CustomGame</string>
+    <string name="score">Starting Score</string>
+    <string name="level">Starting Level</string>
+    <string name="title_activity_point_game">PointGame</string>
+    <string name="title_activity_gesture_settings">GestureSettings</string>
+    <string name="brush">Brush Width</string>
+    <string name="color_instructions">Choose Line Color and Width</string>
+    <string name="title_activity_score_screen">ScoreScreen</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_gesture_start">GestureStart</string>
+    <string name="start">Start</string>
+
+</resources>

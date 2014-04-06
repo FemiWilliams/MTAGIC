@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mtagic"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="4"
+        android:targetSdkVersion="9" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.SET_DEBUG_APP" >
+    </uses-permission>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.mtagic.Intro"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.mtagic.GestureGame"
+            android:label="@string/title_activity_gesture_game"
+            android:parentActivityName="com.example.mtagic.Intro" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.mtagic.Intro" />
+        </activity>
+        <activity
+            android:name="com.example.mtagic.GestureFragment"
+            android:label="@string/title_activity_gesture_fragment" >
+        </activity>
+        <activity
+            android:name="com.example.mtagic.LevelComplete"
+            android:label="@string/title_activity_level_complete"
+            android:parentActivityName="com.example.mtagic.Intro" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.mtagic.Intro" />
+        </activity>
+        <activity
+            android:name="com.example.mtagic.NameActivity"
+            android:label="@string/title_activity_name" >
+        </activity>
+        <activity
+            android:name="com.example.mtagic.CustomGame"
+            android:label="@string/title_activity_custom_game"
+            android:parentActivityName="com.example.mtagic.Intro" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.mtagic.Intro" />
+        </activity>
+        <activity
+            android:name="com.example.mtagic.PointGame"
+            android:label="@string/title_activity_point_game" >
+        </activity>
+        <activity
+            android:name="com.example.mtagic.GestureSettings"
+            android:label="@string/title_activity_gesture_settings" >
+        </activity>
+        <activity
+            android:name="com.example.mtagic.ScoreScreen"
+            android:label="@string/title_activity_score_screen" >
+        </activity>
+        <activity
+            android:name="com.example.mtagic.GestureStart"
+            android:label="@string/title_activity_gesture_start" >
+        </activity>
+    </application>
+
+</manifest>
